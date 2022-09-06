@@ -1,0 +1,54 @@
+/*===== variables =====*/
+:root {
+  --font: "Inter", sans-serif;
+  --color-dark: #333;
+  --color-light: #fff;
+  --color-green: #67a549;
+}
+
+/*===== main styles =====*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--color-dark);
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--font-dark);
+}
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
